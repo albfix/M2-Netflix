@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+​
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+​
+    <title>Netflix</title>
+    <style>
+        body{
+            background-color: #1C1C1C  ;
+        }
+        .row{
+          color: white;
+        }
+        .edit-profile{
+          position: absolute;
+          top:auto;
+        }
+        .iconProfile img{
+          position: absolute;
+          
+        }
+
+        .savePreference{
+          padding: 1px;
+          position: absolute;
+
+        }
+
+        .btn {
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          padding: 2px;
+          margin: 3px;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        #formName{
+          background-color: grey;
+          color: white;
+        }
+
+        .custom-select{
+          background-color: black;
+        }
+        .check{
+        color:white;
+     
+         }
+
+         .opt{
+           color:white;
+         }
+
+         ::placeholder{
+           color: white;
+         }
+         .opt2 ::placeholder{
+           color: white;
+         }
+         .checkBox{
+           height: 18px;
+         }
+         .opt3{
+           margin:10px;
+           float: left;
+         }
+         h5{
+           padding-top: 7px;
+         }
+
+         .btn{
+           padding: 2px px;
+         }
+
+         
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="netflix logo" style="width:50px;">
+      </a>
+    </nav>
+
+    <div class="container">
+      <div class="divHead row justify-content-center col-12">
+        <h1>Edit your profile</h1>
+        </div>
+      <div class="row justify-content-center mt-2 mb-3">
+
+      <div class="col-lg-2">
+        <img class="iconProfile img-responsive" src="images/blue-icon.png" width="80%">
+
+      </div>
+      <div class="col-lg-4">
+        <div class="form-group">
+          <input type="email" class="form-control opt2" id="formName" placeholder="Strive Student"><!--Can't change color of placeholder-->
+        </div>
+        <div class="language">
+          <div>
+            <h5>Language</h5>
+          </div>
+          <div class="checkLanguage check">
+            <select class="custom-select opt opt2 col-3">
+              <option selected></option>
+              <option value="1">Italian</option>
+              <option value="2">English</option>
+              <option value="3">French</option>
+            </select>
+          </div>
+          
+        </div>
+
+        <div class="allowedFilm">
+          <div>
+            <h5>Movies and Tv series</h5>
+          </div>
+          <div class="checkLanguage check">
+            <select class="custom-select opt">
+              <option selected>Age maturity levels</option>
+              <option value="1">For little kids</option>
+              <option value="2">For older kids</option>
+              <option value="3">All maturity levels</option>
+            </select>
+          </div>
+          
+        </div>
+
+      </div>
+      <div class="col col-lg-2">
+        <div class="form-check">
+          <input class="form-check-input checkBox" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Kid?
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      
+      <div class="savePreference row justify-content-center col-6"">
+
+        <div class="btn-group-wrap " role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-light btn-lg ">Save</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg">Cancel</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg">Remove</button>
+        </div>
+     
+    </div>
+    </div>
+    
+    </div>
+  </div>
+   
+
+​
+​
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
